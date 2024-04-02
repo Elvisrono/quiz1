@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  box-shadow: 0;
+}
+body{
+  background-color: rgb(240, 228, 228)
+}
+.nav-links{
+  display: flex;
+  background-color: rgb(13, 92, 66);
+  
+  
+  
+  /* padding: 15px; */
+}
+
+.nav-links .links{
+  margin-left: 40%;
+  padding: 10px;
+  display: inline-block;
+
+}
+.head h1{
+  display: flex;
+  margin: 0px;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  
+}
+button{
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+
+}
+.title{
+  padding-left: 150px;
+  padding-top: 80px;
+}
+.main{
+  background-image: url(assets/pexels-pok-rie-3233371.jpg);
+  background-size: cover;
+  height: 750px;
+  width: 1560px;
+}
+
+body{
+  background-image: url(./assets/pexels-asad-photo-maldives-1430676.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 3px -100px;
+}
+h2{
+  color: black
+}
+h3,h4,h5{
+  color: orange;
+}
+.login-box {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3), url('./assets/pexels-pok-rie-3233371.jpg'));
+  background-size: cover;
+  box-shadow: 0 15px 25px rgba(33, 80, 167, 0.7);
+  border-radius: 10px;
+}
+
+.login-box h2{
+  margin: 0 0 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.login-box .user-box input{
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+}
+#formBtn{
+  padding: 10px 20px;
+  color: rgb(177, 177, 209);
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 4px;
+  border: 1px solid #8F7CEC;
+  margin: auto;
+}
+
+
